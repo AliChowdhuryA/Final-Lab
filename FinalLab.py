@@ -128,6 +128,11 @@ def main():
            EmployeeDictList.append(appendDict())
         elif input1 == "2":
             printEmployees(EmployeeDictList)
+        else:
+            print("You chose to quit. Have a great day. Here is the list of current employees: ")
+            break
+        printEmployees(EmployeeDictList)
+
         
     
 
